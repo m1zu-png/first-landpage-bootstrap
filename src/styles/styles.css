@@ -1,3 +1,10 @@
+/*@import url('./global.css');*/
+
 .divider-line {
     height: 3px;
 }
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
